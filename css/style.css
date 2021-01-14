@@ -26,6 +26,9 @@ header a {
   height: 20px;
   margin-right: 5px;
 }
+.casual-shoes h2{
+  font-weight: bold;
+}
 .btn-buy {
   background-color: #3d4ff3 !important;
   text-transform: uppercase;
@@ -37,6 +40,10 @@ header a {
 }
 .formal-shoes h1 {
   color: #fa804c;
+}
+.product-img{
+  height: 250px;
+  width: 250px;
 }
 @media (max-width: 768px) {
   .help-div {
