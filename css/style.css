@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.help-card-img {
+  width: 100px;
+  height: 100px;
+}
+.banner-row h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.title-highlight {
+  color: #fa804c;
+}
+.logo-text {
+  color: #fa804c !important;
+  font-size: 40px;
+  font-weight: bold;
+}
+header a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #3c3c3c !important;
+}
+.btn-logo {
+  height: 20px;
+  margin-right: 5px;
+}
+.btn-buy {
+  background-color: #3d4ff3 !important;
+  text-transform: uppercase;
+  color: white !important;
+  font-weight: bold;
+}
+.casual-shoes h1 {
+  color: #fa804c;
+}
+.formal-shoes h1 {
+  color: #fa804c;
+}
+@media (max-width: 768px) {
+  .help-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .help-info {
+    text-align: center;
+  }
+  .banner-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 769px) and (max-width: 991.98px) {
+  .btn-buy {
+    font-size: 9px;
+    padding: 10px 10px;
+  }
+}
