@@ -1,6 +1,11 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.logo-icon{
+  width: 100%;
+  height: 60px;
+  margin-right: 8px;
+}
 .help-card-img {
   width: 100px;
   height: 100px;
